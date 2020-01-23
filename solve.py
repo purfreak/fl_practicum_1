@@ -2,10 +2,6 @@ class IncorrectREException(Exception):
     pass
 
 
-def apply_or_operator(first_remainder_set, second_remainder_set, operands_stack):
-    operands_stack.append(first_remainder_set.union(second_remainder_set))
-
-
 class Solver:
     regexp = ""
     letter = ""
@@ -99,7 +95,4 @@ class Solver:
         if len(operands_stack) != 1:
             raise IncorrectREException()
         else:
-            if 0 in operands_stack[0]:
-                print("YES")
-            else:
-                print("NO")
+            return 0 in operands_stack[0]
