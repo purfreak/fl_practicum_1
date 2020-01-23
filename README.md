@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/purfreak/fl_practicum_1.svg?branch=master)](https://travis-ci.com/purfreak/fl_practicum_1)
+[![Build Status](https://travis-ci.com/purfreak/fl_practicum_1.svg?branch=master)](https://travis-ci.com/purfreak/fl_practicum_1) [![codecov](https://codecov.io/gh/purfreak/fl_practicum_1/branch/master/graph/badge.svg)](https://codecov.io/gh/purfreak/fl_practicum_1)
 
 ## Постановка задачи:
 Даны α, буква x и натуральное число k. Вывести, есть ли в языке L слова,
