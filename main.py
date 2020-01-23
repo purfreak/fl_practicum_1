@@ -1,15 +1,18 @@
 from solve import *
 
 
-def main():
-    regexp, word, number = input().split()
-
+def main(regexp, word, number):
     try:
         solver = Solver(regexp, word, number)
-        solver.solve()
+        if solver.solve():
+            print("YES")
+        else:
+            print("NO")
     except IncorrectREException as e:
-        print(e)
+        print(f"Incorrect Regular expression: {e}")
+    except Exception as e:
+        print(f"Unknown exception: {e}")
 
 
 if __name__ == "__main__":
-    main()
+    main(*input().split())
