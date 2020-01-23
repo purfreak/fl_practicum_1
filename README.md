@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/purfreak/fl_practicum_1.svg?branch=master)](https://travis-ci.com/purfreak/fl_practicum_1)
+
 ## Постановка задачи:
 Даны α, буква x и натуральное число k. Вывести, есть ли в языке L слова,
 содержащие кратное k число букв x.
